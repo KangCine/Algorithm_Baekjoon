@@ -1,0 +1,22 @@
+package com.bj06.function;
+
+import java.util.Scanner;
+
+public class Main02 {
+	
+	private static int maxNum = 10000;
+	
+	public static void main(String[] args) {
+		
+		String num;
+		
+		for(int i = 1; i < maxNum; i++) {
+			
+			String [] s = num.split(i, "");
+			
+			
+		}
+		
+	}
+	
+}

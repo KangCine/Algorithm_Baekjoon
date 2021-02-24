@@ -1,0 +1,42 @@
+package com.bj05.Array;
+
+import java.util.Scanner;
+
+//No.4344
+public class Main07 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int line = sc.nextInt();
+		
+		int sum = 0;
+		double avg = 0;
+		int [] score = null;
+		int cnt = 0;
+		
+		for(int i = 0; i < line; i++) {
+			int n = sc.nextInt();
+			score = new int [n];
+			for(int j = 0; j < n; j++) {
+				score[j] = sc.nextInt();
+				sum += score[j];
+			}
+			
+			avg = (double)(sum / n);
+			
+			for(int j = 0; j < n; j++) {
+				if(score[j] > avg) {
+					cnt++;
+				}
+			}
+			System.out.printf("%.3f", (double)(100 * cnt / n));
+			
+			System.out.println(cnt);
+			
+			System.out.println(n);
+			
+			
+			cnt = 0;
+		}
+	}
+}

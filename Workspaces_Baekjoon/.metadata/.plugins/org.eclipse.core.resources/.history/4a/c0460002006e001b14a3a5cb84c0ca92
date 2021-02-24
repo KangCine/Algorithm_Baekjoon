@@ -1,0 +1,10 @@
+package com.bj05.Array;
+
+import java.io.BufferedReader;
+
+public class Main03 {
+	public static void main(String[] args) {
+		BufferedReader br = new BufferedReader(new InputSreamtReader(System.in));
+		
+	}
+}

@@ -1,0 +1,30 @@
+package com.bj05.Array;
+//No.8958
+import java.util.Scanner;
+
+public class Main06 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int line = sc.nextInt();
+		
+		String [] quiz = new String [line];
+		
+		for(int i = 0; i < line; i++) {
+			quiz[i] = sc.next();
+			
+			quiz[i].split("");
+			String arr [] = new String [];
+			
+			
+			
+			System.out.println(i + "번지 : " + quiz[i]);
+			
+			
+		}
+
+	}
+	
+
+}

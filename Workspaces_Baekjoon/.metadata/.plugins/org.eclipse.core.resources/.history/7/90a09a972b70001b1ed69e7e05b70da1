@@ -1,0 +1,31 @@
+package com.bj06.function;
+
+import java.util.Scanner;
+
+//No.15596
+public class Main01 {
+	
+	
+	public static Scanner sc = new Scanner(System.in);
+	
+	
+	public static void main(String[] args) {
+		
+		int line = sc.nextInt();
+		
+		sum(line);
+		
+	}
+	
+	
+	public static long sum(int a[]) {
+		int sum = 0;
+		
+		for(int i = 0; i < line; i++) {
+			int num = sc.nextInt();
+			sum += num;
+		}
+		return sum;
+	}
+
+}
