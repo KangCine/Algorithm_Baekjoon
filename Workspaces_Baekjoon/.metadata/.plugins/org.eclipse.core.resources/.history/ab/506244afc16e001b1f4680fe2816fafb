@@ -1,9 +1,0 @@
-package com.bj06.function;
-//No.15596
-public class Main01 {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		
-	}
-
-}
