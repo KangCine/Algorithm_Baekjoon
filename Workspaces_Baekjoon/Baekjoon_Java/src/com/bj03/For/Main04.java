@@ -1,4 +1,4 @@
-//No.15552
+//No.15552 
 package com.bj03.For;
 
 import java.io.BufferedReader;
