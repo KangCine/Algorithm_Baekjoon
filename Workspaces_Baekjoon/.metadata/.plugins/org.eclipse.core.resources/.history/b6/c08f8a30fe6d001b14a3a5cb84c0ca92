@@ -1,8 +1,0 @@
-package com.bj05.Array;
-
-public class Main03 {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		
-	}
-}
