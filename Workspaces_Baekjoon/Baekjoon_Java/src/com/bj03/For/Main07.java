@@ -23,7 +23,6 @@ public class Main07 {
 			st = new StringTokenizer(br.readLine());
 			bw.write("Case #"+i+": ");
 			bw.write(Integer.parseInt(st.nextToken()) + Integer.parseInt(st.nextToken()) + "\n");
-			
 		}
 		bw.close();
 		br.close();
