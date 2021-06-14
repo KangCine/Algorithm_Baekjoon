@@ -27,7 +27,6 @@ public class Main01 {
 		for(int i = 0; i < line; i++) {
 			System.out.println(arr[i]);
 		}
-		
 	}
 
 }
