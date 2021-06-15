@@ -7,7 +7,6 @@ public class Main09 {
 	public static void main(String[] args) {
 		
 		// c= c- dz= d- lj nj s= z=
-		
 		Scanner sc = new Scanner(System.in);
 		
 		String str = sc.nextLine();
